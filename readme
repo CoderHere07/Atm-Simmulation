@@ -1,1 +1,53 @@
 This project will implement core functionalities of an ATM, including account management, cash withdrawal, deposit, balance inquiry, and transaction history. The system will serve as a practical application of Data Structures and Algorithms (DSA) while providing an interactive interface for users.
+Incorporated Data Structures
+•	Array: For storing static data like predefined accounts.
+•	2D Array: For maintaining transaction records per account.
+•	Linked List: For dynamic transaction history.
+•	Stack: For enabling undo operations on transactions
+_______________________________________
+Objectives:
+1.	Simulate the functionalities of a real-world ATM system.
+2.	Allow users to perform basic banking transactions.
+3.	Utilize DSA concepts to manage accounts and transaction history efficiently.
+4.	Provide a clear, user-friendly interface.
+_______________________________________
+Features
+Core Features:
+1.	Account Management
+  o	Store user data including account number, PIN, and balance.
+  o	Validate login credentials
+2.	Cash Withdrawal
+  o	Deduct amount from the account balance.
+  o	Ensure sufficient funds before completing the transaction.
+3.	Cash Deposit
+  o	Add amount to the account balance.
+4.	Balance Inquiry
+  o	Display the current account balance to the user.
+5.	Transaction History
+  o	Record each transaction (withdrawal, deposit, balance inquiry).
+  o	Use a linked list to maintain a dynamic history.
+6.	Change pin
+  o	Change the pin of your Account
+________________________________________
+Advanced Features:
+1.	Undo Last Transaction
+  o	Use a stack to store the last transaction and allow the user to undo it.
+2.	Multiple Account Types
+  o	Support savings and checking accounts with distinct features and limits.
+3.	Daily Withdrawal Limit
+  o	Set a daily limit for withdrawals and track the amount.
+4.	Security Features
+  o	Lock the account after three failed login attempts.
+  o	Allow password reset using security questions.
+5.	Mini Statement
+o	Generate a summary of the last 5-10 transactions.
+6.	Currency Exchange
+  o	Select the currency and get the currency according to the rate 
+7.	Virtual card
+  o	Generate the virtual card
+8.	Transfer fund
+  o	Transfer money in same bank account
+9.	Loan Request
+  o	Get the loan according to your current balance
+10.	Loan Repayment
+  o	Return the loan 
